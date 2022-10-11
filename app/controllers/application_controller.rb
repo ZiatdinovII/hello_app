@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
             # render plain: "hola, mundo!"
             render plain: "¡Hola, mundo!"
         end
+        def goodbye
+            render plain: "goodbye, world!"
+        end
 end
